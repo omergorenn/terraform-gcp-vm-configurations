@@ -54,7 +54,6 @@ Follow these steps to use the Terraform configurations in this repository:
 
 ## Notes and Considerations
 
-- Exercise caution with unique names, especially for Google Storage Buckets.
 - Validate results in the Cloud Console after Terraform execution.
 
 ## Additional Resources
