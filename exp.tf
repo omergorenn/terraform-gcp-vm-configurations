@@ -18,7 +18,7 @@ resource "google_compute_instance" "another_instance" {
 }
 # New resource for the storage bucket our application will use.
 resource "google_storage_bucket" "example_bucket" {
-  name     = "<UNIQUE_BUCKET_NAME>"
+  name     = "first_bucket"
   location = "US"
   website {
     main_page_suffix = "index.html"
